@@ -1,0 +1,62 @@
+body {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(heritage_img/speech.webp);
+        background-position: center;
+        background-size:cover;flex-direction: column;
+        min-height:100vh;
+        width:100%;
+        margin: 20px;
+        text-align:center;
+      }
+    
+    h2, h3 {
+        color: #333;
+    }
+    
+    textarea {
+        width: 80%;
+        height: 100px;
+        font-size: 16px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        resize: none;
+        background-color: transparent;  /* Makes the textarea transparent */
+        color: #333;  /* Text color */
+    }
+    
+    /* Optional: Remove the border when typing */
+    textarea:focus {
+        outline: none;
+        border: 1px solid  #de6262;
+    }
+    
+    select {
+        padding: 8px;
+        font-size: 16px;
+        margin: 10px;
+    }
+    
+    button {
+        padding: 10px 15px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #de6262!important;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin: 5px;
+    }
+    
+    button:hover {
+        background-color: #de6262!important;
+    }
+    
+    #speechToTextResult {
+        font-weight: bold;
+        margin-top: 10px;
+        color: #444;
+    }
+    

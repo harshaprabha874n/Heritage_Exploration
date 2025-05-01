@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {margin: 0;padding: 0;
+    box-sizing:border-box;
+    font-family:'poppins',sans-serif;
+}
+
+.navbar{width:100%;background: linear-gradient(to right,#c59908,#f6c657);}
+.navbar-brand{color: white!important;}
+.nav-link{color:white!important;}
+.nav-link:hover{color:rgb(255.0,212)!important;}
+
+
+#navbar{
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:100;
+    padding:.5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+}
+.navbar .navbar-brand{
+    font-size:25px;
+    font-weight: 500;
+}
+#navbarSupportedContent a{
+    color:#000!important;
+    border-bottom:2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom:2px solid #fff;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+/***home***/
+#home{
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(heritage_img/wp8798423.jpg);
+    background-size:cover;
+    background-position:center;
+    flex-direction:column;
+}
+#home h1{
+    font-size:60px;
+    color:white;
+    letter-spacing:3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:0px 0px 0px #CCC,
+                0px 0px 0px #CCC,
+                0px 0px 0px #CCC,
+                0px 0px 0px #CCC,
+                0px 0px 0px #CCC,
+                0px 0px 0px #CCC,
+                0px 4px 0px #CCC;
+                
+}
+#home p{
+    font-size:18px;
+    color:#fff;
+    font-family:Italic;
+
+}
+#home .input-group{
+    width:40%;
+    height:45px;
+}
+.signin{
+    background:#de6262!important;
+    color:white!important;
+    box-shadow:2px 4px 5px rgba(0,0,0,.3);
+}
+/***about***/
+#about h1{
+    font-weight:800;
+    font-size:50px;
+    }
+    /***products***/
+    #product{
+        background:#aca4a4;
+    }
+    #product h1{
+        font-size:50px;
+        letter-spacing:2px;
+        font-weight:700;
+
+    }
+    #product img{
+        width:300px;
+        height:250px;
+    }
+    .card{
+        width:300px;
+        height:450px;
+        background:#aca4a4!important;
+        border:none!important;
+        box-shadow:15px 20px 20px rgba(0,0,0,.3),
+        inset 4px 4px 10px white;
+        border-radius:20px!important;
+        overflow:hidden;
+        justify-content:center;
+        align-items:center;
+        margin:20px 60px;
+        transition:.2s;
+    }
+    .card:hover{
+        box-shadow:inset 5px 5px 10px rgba(0,0,0,.3),
+        inset -4px -4px 10px white;
+        transition:.2s;
+    }
+    /**contact**/
+    #contact img{
+        height:100%;
+        width:100%;
+
+    }
+    #contact{
+        width:100%!important;
+        background:rgb(81, 148, 142);
+        border:none!important;
+    
+
+    }
+    #contact input{
+        margin:10px 0px;}
+        #contact textarea{
+          margin:10px 0px;
+    
+      }
+      form{
+        display:flex;
+        flex-direction:column;
+    }
+    footer{
+        width:100%;
+        height:30px;
+        background:rgba(0,0,0,.8);
+        margin-top:-30px;
+        text-align:center;
+        color:white;
+        padding:3px;
+    }
+    .navbar .links a:hover {
+        color: #fa5f06;
+    }
+    
+    .navbar .login-btn {
+        border: none;
+        outline: none;
+        background: #fff;
+        color: #fa5721;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 10px 18px;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: 0.15s ease;
+    }
+    
+    .navbar .login-btn:hover {
+        background: #a7a29f;
+    }
+    

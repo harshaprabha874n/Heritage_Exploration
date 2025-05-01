@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Text-to-Speech & Speech-to-Text</title>
+    <link rel="stylesheet" href="speech.css">
+</head>
+<body>
+
+    <h2 style="color:white; font-size: 40
+    px;">Text-to-Speech & Speech-to-Text Converter</h2>
+
+    <!-- Text to Speech -->
+    <textarea id="textToSpeech" style="color:white;" placeholder="Enter text to convert into speech..."></textarea><br>
+    <select id="language">
+        <option value="en-US">English</option>
+        <option value="ta-IN">Tamil</option>
+        <option value="fr-FR">French</option>
+        <option value="zh-CN">Chinese</option>
+        <option value="hi-IN">Hindi</option>
+        <option value="te-IN">Telugu</option>
+    </select>0 
+    <button onclick="convertTextToSpeech()">Convert to Speech</button>
+<br>
+<br>
+<br>
+    <hr>
+<br>
+<br>
+    <!-- Speech to Text -->
+    <h3 style="color:white; font-size: 40px;">Speech to Text</h3>
+    <button onclick="startSpeechRecognition()">Start Speaking</button>
+    <p id="speechToTextResult" style="color:white; font-size: 50px;">Recognized Text will appear here...</p>
+    <p class="credit" style="color:white">Copyrights to <a target="_blank" href="home.html">HeritageExplorer</a></p>
+    <script src="speech.js"></script>
+    
+</body>
+</html>
